@@ -1,7 +1,7 @@
 # POSITIONING CONTROLLER
 This project consists of the position control of a servo, composed of a motor with reduction, a potentiometer for the position feedback. The set also has an encoder for adjusting the SetPoint and an LCD display to present information related to the system's operation.
 
-The peration follows the guidelines below:
+The operation follows the guidelines below:
 1) The SetPoint is adjusted using the Encoder and represents the desired angle value in degrees. The minimum value to be adjusted is zero and the maximum value must be 180;
 
 2) The Encoder has a button that must be used to confirm or cancel the displayed values. If it is held down for more than 2 seconds, it represents a confirmation, if it is pressed for less time, it means a cancellation of the action. The button will be used to correct the SetPoint value and start position control;
@@ -16,7 +16,7 @@ The peration follows the guidelines below:
 When the user confirms a new angle value, a message appears on the display informing that the change has been made;
 If the user cancels a change, a cancellation message is shown on the display, confirming the change cancellation;
 
-CONNECTIONS PINS:
+CONNECTION PINS:
 - Encoder: 3, 2
 - Encoder Button: 4
 - LCD: 11, 12, 5, 6, 7, 8 (RS, EN, D4, D5, D6, D7)
